@@ -1,6 +1,5 @@
 CREATE DATABASE reciclaje_db;
 USE reciclaje_db;
-show tables;
 DESCRIBE botes;
 DESCRIBE residuos;
 DESCRIBE puntos;
@@ -61,7 +60,6 @@ INSERT INTO botes (nombre, color) VALUES
 ('Vidrio', 'Blanco');
 
 SELECT * FROM botes;
-DESCRIBE residuos;
 ALTER TABLE residuos CHANGE descrDipcion descripcion TEXT;
 
 INSERT INTO residuos (nombre, descripcion, id_bote) VALUES
