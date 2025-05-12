@@ -50,6 +50,20 @@ proyecto/
   from residuos import cargar_residuos_csv
   cargar_residuos_csv("datos/residuos.csv")
   ```
+Instructivo para cargar el archivo .csv
+Abre el programa (main.py) y selecciona la opción "Cargar residuos desde archivo CSV" (opción 7 del menú, si ya está configurada así).
+
+Cuando te lo pida, escribe la ruta del archivo, por ejemplo:
+residuos_ejemplo_20.csv
+Asegúrate de que el archivo esté en la misma carpeta que tu programa o ajusta la ruta.
+
+El sistema:
+
+Leerá el archivo.
+
+Validará que los residuos no estén duplicados por nombre.
+
+Insertará los nuevos y mostrará cuáles fueron omitidos por repetidos.
 - Verifica automáticamente si el residuo ya existe (por nombre) antes de insertarlo.
 - Imprime advertencias si algún residuo se omite por duplicado.
 
