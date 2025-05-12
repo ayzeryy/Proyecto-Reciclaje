@@ -1,0 +1,21 @@
+nombre,descripcion,id_bote
+papel,Residuos de papel reciclable,1
+plastico,Botellas de plástico PET,2
+vidrio,Frascos y botellas de vidrio,3
+metal,Latas de aluminio o acero,4
+organico,Desechos orgánicos biodegradables,5
+carton,Cajas y empaques de cartón limpio,1
+tetrapak,Envases de cartón plastificado como jugos,2
+papel_aluminio,Láminas delgadas de aluminio usadas,4
+latas,Latas de bebidas o alimentos,4
+envases_vidrio,Envases de vidrio reutilizable o reciclable,3
+bolsas_plasticas,Bolsas plásticas limpias y secas,2
+comida,Restos de comida no contaminada,5
+restos_cafe,Borras y restos de café usados,5
+servilletas,Servilletas usadas pero no contaminadas con químicos,5
+cascaras_fruta,Cáscaras de frutas y verduras,5
+bandejas_telgopor,Bandejas de telgopor limpias,2
+ropa_vieja,Ropa usada para reciclaje textil,1
+huesos,Restos óseos de comida,5
+huevos,Cáscaras de huevo limpias,5
+pañuelos_usados,Pañuelos desechables usados,5
