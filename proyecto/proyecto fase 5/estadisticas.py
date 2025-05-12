@@ -22,25 +22,25 @@ def generar_estadisticas():
     print("\nResumen de los últimos 30 días:")
     print(df.head())
 
-    # Exportar a CSV
+    
     nombre_archivo = "resumen_estadistico.csv"
     df.to_csv(nombre_archivo, index=False)
     print(f"\nDatos exportados exitosamente a '{nombre_archivo}'")
 
-    # Estadísticas por residuo y bote
+   
     print("\nCantidad por tipo de residuo:")
     print(df["residuo"].value_counts())
 
     print("\nCantidad por tipo de bote:")
     print(df["bote"].value_counts())
 
-    # Gráfico de pastel por tipo de residuo
+    
     df["residuo"].value_counts().plot.pie(autopct='%1.1f%%', startangle=90)
     plt.title("Proporción de residuos")
     plt.ylabel("")
     plt.show()
 
-    # Gráfico de barras por uso de botes
+ 
     df["bote"].value_counts().plot(kind="bar")
     plt.title("Uso de botes")
     plt.xlabel("Bote")
@@ -77,7 +77,7 @@ def estadisticas_numpy():
     print(f"\nMedia de búsquedas por tipo de residuo: {media:.2f}")
     print(f"Desviación estándar: {desviacion:.2f}")
 
-    # Exportar al mismo CSV como resumen adicional
+   
     with open("resumen_estadistico.csv", "a", encoding="utf-8") as f:
         f.write("\n\n# Estadísticas NumPy\n")
         conteo.to_csv(f, header=["conteo"])
