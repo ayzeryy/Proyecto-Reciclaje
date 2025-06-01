@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f0fdf4;
+  height: 100vh;
+}
+
+/* Barra lateral */
+.sidebar {
+  background-color: #6d8b5d;
+  width: 220px;
+  padding: 30px 20px;
+  color: white;
+}
+
+.sidebar h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px 0;
+  font-weight: bold;
+  transition: all 0.2s ease;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+/* Contenedor de contenido */
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.main-content h2 {
+  color: #00796b;
+  margin-bottom: 30px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* Buscador */
+.buscador label {
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.buscador .input-group {
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.input-group input {
+  border-radius: 8px 0 0 8px;
+}
+
+.input-group .btn {
+  border-radius: 0 8px 8px 0;
+}
+
+/* Botón personalizado */
+.btn-eco {
+  background-color: #43a047;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 8px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-eco:hover {
+  background-color: #2e7d32;
+}
+
+/* Alertas y mensajes */
+.alert {
+  border-radius: 10px;
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.btn-link {
+  font-weight: bold;
+  color: #00796b;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mis puntos</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+
+</head>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h2>Mis puntos acumulados</h2>
+    <div class="alert alert-info">
+      Has acumulado <strong>{{ puntos }}</strong> puntos en los últimos 30 días.
+    </div>
+    <a href="{{ url_for('main.dashboard') }}" class="btn btn-link">Volver al dashboard</a>
+  </div>
+</body>
+</html>
